@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Journal</string>
+    <string name="tv_date">Date</string>
+    <string name="tv_time">Time</string>
+    <string name="btn_save">Date</string>
+    <string name="edt_title">Enter Title</string>
+    <string name="edt_content">Enter Description</string>
+</resources>

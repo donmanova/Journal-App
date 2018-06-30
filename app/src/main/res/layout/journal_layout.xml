@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This linear layout contains a single item displayed in the MainActivity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   android:padding="8dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/datedUpdated"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_light"
+            tools:text=""
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            />
+
+        <!-- TextView that displays the update date -->
+        <TextView
+            android:id="@+id/updatedTime"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="30sp" />
+
+
+    <!-- A priority circle that is colored in programmatically in the adapter code -->
+
+
+</LinearLayout>
+
+
